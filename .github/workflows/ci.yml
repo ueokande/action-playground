@@ -13,14 +13,14 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '12'
 
   setup-node-2:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v4
         with:
-          node-version: '20.11.0'
+          node-version: '12.3.0'
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '12'
